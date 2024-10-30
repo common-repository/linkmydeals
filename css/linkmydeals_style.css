@@ -1,0 +1,29 @@
+/* WP Background */
+#wpwrap {
+  background: #f1f1f1;
+}
+
+.linkmydeals_troubleshoot.dashicons {
+  font-size: 2rem;
+}
+.linkmydeals_troubleshoot.dashicons.dashicons-yes {
+  color: #28a745;
+}
+.linkmydeals_troubleshoot.dashicons.dashicons-no {
+  color: #dc3545;
+}
+.linkmydeals_troubleshoot.dashicons.dashicons-warning {
+  color: #ffc107;
+}
+
+.form-check .form-check-input {
+  float: none;
+}
+
+input[type=checkbox]:checked::before {
+  content: none;
+}
+
+.wp-admin input[type=file] {
+  padding: 0.3rem;
+}
